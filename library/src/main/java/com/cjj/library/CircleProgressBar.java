@@ -15,7 +15,7 @@ import android.view.View;
  */
 
 public class CircleProgressBar extends View implements ValueAnimator.AnimatorUpdateListener{
-
+//sdfsdf
     private int mWidth;//宽
     private int mHeight;//高
 
