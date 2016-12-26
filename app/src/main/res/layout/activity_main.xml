@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.cjj.library.CircleProgressBar
+            android:id="@+id/cpb_main"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            rp:rp_circleRadius="3dp"
+            rp:rp_ciricleColor="#987654"
+            rp:rp_progressBarColor="#123456"
+            rp:rp_progressSize="2dp"
+            rp:rp_smallCircle="1dp"
+            rp:rp_smallCircleColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="14sp"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="click"
+        android:textStyle="italic"
+        />
+</LinearLayout>
