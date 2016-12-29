@@ -75,4 +75,4 @@ Step 1. 在你的project的build.gradle中添加如下代码：
 
 Step 2. 在module中的build.gradle中添加依赖
 
-	compile 'com.github.ChJiajie:CircleProgress:0.0.1'
+	compile 'com.github.ChJiajie:CircleProgress:1.0.0'
