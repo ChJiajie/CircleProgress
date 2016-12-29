@@ -17,7 +17,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             rp:rp_circleRadius="3dp"
-            rp:rp_ciricleColor="#987654"
+            rp:rp_circleColor="#987654"
             rp:rp_progressBarColor="#123456"
             rp:rp_progressSize="2dp"
             rp:rp_smallCircle="1dp"

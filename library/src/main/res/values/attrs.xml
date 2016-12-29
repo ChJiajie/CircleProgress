@@ -6,7 +6,7 @@
         <attr name="rp_progressSize" format="dimension"/><!--进度条大小-->
         <attr name="rp_smallCircleColor" format="color"/><!--内环颜色-->
         <attr name="rp_progressBarColor" format="color"/><!--进度条颜色-->
-        <attr name="rp_ciricleColor" format="color"/><!--小球颜色-->
+        <attr name="rp_circleColor" format="color"/><!--小球颜色-->
         <attr name="rp_circleRadius" format="dimension"/><!--小球半径-->
     </declare-styleable>
 </resources>

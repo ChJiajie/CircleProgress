@@ -218,10 +218,10 @@ public class CircleProgressBar extends View implements ValueAnimator.AnimatorUpd
 
     public interface OnProgressBarListener{
 
-        void onStart();
+        void onStart();//动画开始
 
-        void onProgressing(float percent);
+        void onProgressing(float percent);//动画百分比
 
-        void onFinish();
+        void onFinish();//动画结束
     }
 }
