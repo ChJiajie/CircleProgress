@@ -60,7 +60,7 @@ public class CircleProgressBar extends View implements ValueAnimator.AnimatorUpd
         mBcWidth = typedArray.getDimension(R.styleable.RoundProgressBar_rp_smallCircle, 4);
         mBcColor = typedArray.getColor(R.styleable.RoundProgressBar_rp_smallCircleColor, Color.WHITE);
         progressColor = typedArray.getColor(R.styleable.RoundProgressBar_rp_progressBarColor, Color.RED);
-        circleColor = typedArray.getColor(R.styleable.RoundProgressBar_rp_ciricleColor, Color.RED);
+        circleColor = typedArray.getColor(R.styleable.RoundProgressBar_rp_circleColor, Color.RED);
         smallRadius = typedArray.getDimension(R.styleable.RoundProgressBar_rp_circleRadius, smallRadius);
         progressSize = typedArray.getDimension(R.styleable.RoundProgressBar_rp_progressSize, 8);
         typedArray.recycle();
